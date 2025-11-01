@@ -1,0 +1,52 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer Patch files
+*.patch
+
+# Windows Installer Service files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (build)
+*.dll
+*.exe
+
+# User-specific files
+.vs
+.vscode
+.idea
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ebug/aspnet/
+[Dd]ebug/aspnet/Debug/
+[Dd]ebug/aspnet/Release/
+[Dd]ebug/aspnet/Release/Public/
+[Dd]ebug/aspnet/Release/Release/
+
+# Uncomment if you have tasks that create project's transient files
+RegistroVenta/
+*.tlog
+*.vspscc
+*/bin/
+*/obj/
