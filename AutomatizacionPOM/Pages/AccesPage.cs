@@ -33,6 +33,7 @@ namespace AutomatizacionPOM.Pages
         private By VentaField = By.XPath("//a[@class='menu-lista-cabecera']/span[text()='Venta']");
         private By NuevaVentaField = By.XPath("//a[normalize-space()='Nueva Venta']");
         private By VentaPorContingenciaField = By.XPath("//a[normalize-space()='Venta por Contingencia']");
+        private By VentaCajaField = By.XPath("//a[normalize-space()='Venta Modo Caja']");
         private By EmpleadosField = By.XPath("//*[@id='wrapper']/aside/div/section/ul/li[13]/a");
         // SUBMÓDULOS
         private By VerEmpleadosField = By.XPath("//body/div[1]/aside/div/section/ul/li[13]/ul/li[1]/a");
@@ -90,6 +91,10 @@ namespace AutomatizacionPOM.Pages
                     break;
                 case "Venta por Contingencia":
                     driver.FindElement(VentaPorContingenciaField).Click();
+                    Thread.Sleep(15000);
+                    break;
+                case "Venta Modo Caja":
+                    driver.FindElement(VentaCajaField).Click();
                     Thread.Sleep(15000);
                     break;
                 //ver empleado
